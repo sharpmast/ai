@@ -735,8 +735,7 @@ align-content:space-between;
 column-gap: clamp(50px,6vw,140px);
 padding-bottom: 50px;
 }
-.footer__about {
-}
+
 .footer__about-title {
     font-size: 32px;
     margin-bottom: 21px;
@@ -893,7 +892,7 @@ padding-bottom: 50px;
 }
 .hero__text {
     font-size: 18px;
-       max-width: 92%;
+       max-width: 100%;
     margin-inline: 0;
 }
 .designed__top {
@@ -986,6 +985,9 @@ gap: 70px;
    }
     .rewievs {
     border: none;
+}
+    .footer__items {
+text-align:center;
 }
 }
 
