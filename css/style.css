@@ -978,13 +978,15 @@ gap: 70px;
    .hero__rewievs{
     justify-content: center;
    }
+    .rewievs__images {
+    justify-content: center;
+}
    .hero__buttons{
     flex-wrap: wrap;
     justify-content: center;
    }
     .rewievs {
-    padding: 10px 43px;
-    border-radius: 61px;
+    border: none;
 }
 }
 
