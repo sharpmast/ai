@@ -893,7 +893,8 @@ padding-bottom: 50px;
 }
 .hero__text {
     font-size: 18px;
-    width: 100%;
+       max-width: 92%;
+    margin-inline: 0;
 }
 .designed__top {
     justify-content: center;
@@ -978,9 +979,7 @@ gap: 70px;
    .hero__rewievs{
     justify-content: center;
    }
-    .rewievs__images {
-    justify-content: center;
-}
+
    .hero__buttons{
     flex-wrap: wrap;
     justify-content: center;
@@ -990,5 +989,11 @@ gap: 70px;
 }
 }
 
+@media (max-width:375px) {
+.rewievs__star {
+   justify-content: center;
+    text-align:center;
+}
+}
 
 
