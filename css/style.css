@@ -891,6 +891,10 @@ padding-bottom: 50px;
 .hero-bg{
     display:none;
 }
+.hero__text {
+    font-size: 18px;
+    width: 100%;
+}
 .designed__top {
     justify-content: center;
 }
