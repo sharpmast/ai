@@ -982,10 +982,11 @@ gap: 70px;
     flex-wrap: wrap;
     justify-content: center;
    }
+    .rewievs {
+    padding: 10px 43px;
+    border-radius: 61px;
+}
 }
 
-@media (max-width:374px) {
 
-
-}
 
